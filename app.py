@@ -9,7 +9,7 @@ SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # API endpoint — replace this with your actual Render API URL!
-API_URL = "https://your-api-name.onrender.com/predict/"
+API_URL = "https://mlops-roadmape.onrender.com/predict/"
 
 # Streamlit UI
 st.set_page_config(page_title="Fraud Detection", layout="centered")
